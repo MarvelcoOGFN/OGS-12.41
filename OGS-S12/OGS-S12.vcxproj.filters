@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{19f2cf5c-d51d-4e35-be26-c43693ebf706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK">
+      <UniqueIdentifier>{5507978a-6067-4f97-9fb9-0c86dd3f97f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{40f49bfe-997d-4b9c-9926-36bc7ed89fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\AI">
+      <UniqueIdentifier>{f67b8e8a-e274-4eb4-a006-120a08f05dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ObjectSpawners">
+      <UniqueIdentifier>{b205649c-a632-4edc-aff2-0036cb9c514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\AI\BT_MANG">
+      <UniqueIdentifier>{08292312-9a63-4daa-8ad9-9f6cc7025541}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\UnrealContainers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FortniteGame_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FortniteGame_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FortniteGame_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Looting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bosses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BotNames.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Quests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="POI_Locs.h">
+      <Filter>Resources\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomBoothSpawner.h">
+      <Filter>Resources\ObjectSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="Creative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LateGameLoot.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree_System.h">
+      <Filter>Resources\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_MANG2.h">
+      <Filter>Resources\AI\BT_MANG</Filter>
+    </ClInclude>
+    <ClInclude Include="PE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AIModule_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FortniteGame_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayAbilities_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UMG_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\NameCollisions.inl">
+      <Filter>SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
