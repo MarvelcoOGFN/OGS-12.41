@@ -39,7 +39,7 @@ namespace GameMode {
 				}
 				else if (Globals::Automatics)
 				{
-					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Auto/Playlist_Auto_Solo.Playlist_Auto_Solo");
+					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Auto/Playlist_DefaultSolo.Playlist_DefaultSolo");
 				}
 				else if (Globals::BattleLab)
 				{
