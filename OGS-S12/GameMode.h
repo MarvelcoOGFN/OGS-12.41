@@ -38,8 +38,9 @@ namespace GameMode {
 					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Showdown/Playlist_ShowdownAlt_Solo.Playlist_ShowdownAlt_Solo");
 				}
 				else if (Globals::Automatics)
-				{
+				{ // uncomment the duo version if u want duos and comment the solo version
 					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Auto/Playlist_DefaultSolo.Playlist_DefaultSolo");
+					//Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Auto/Playlist_DefaultDuo.Playlist_DefaultDuo");
 				}
 				else if (Globals::BattleLab)
 				{
